@@ -29,6 +29,6 @@ const getInfos = (req, res) => {
     body: req.body
   })
     .end();
-}
+};
 
 main();
