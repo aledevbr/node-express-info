@@ -1,0 +1,23 @@
+{
+  "name": "express-info",
+  "version": "1.0.0",
+  "description": "Node Express Info data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandresilvaio/node-express-info.git"
+  },
+  "author": "Alexandre Rodrigues da Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexandresilvaio/node-express-info/issues"
+  },
+  "homepage": "https://github.com/alexandresilvaio/node-express-info#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
