@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 const bodyParser = require('body-parser');
 
@@ -6,6 +7,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.text());
 app.use(bodyParser.urlencoded());
 app.use(bodyParser.raw());
+
+app.use(cors()); // Access-Control-Allow-Origin: *
 
 const main = () => {
 
