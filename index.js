@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 
 app.use(bodyParser.json());
 app.use(bodyParser.text());
-app.use(bodyParser.urlencoded());
+// app.use(bodyParser.urlencoded());
 app.use(bodyParser.raw());
 
 app.use(cors()); // Access-Control-Allow-Origin: *
@@ -29,7 +29,8 @@ const getInfos = (req, res) => {
     query: req.query,
     params: req.params,
     headers: req.headers,
-    body: req.body
+    body: req.body,
+    environment: process.env
   })
     .end();
 };

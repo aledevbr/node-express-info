@@ -1,6 +1,6 @@
-FROM node:10.15-alpine
+FROM node:10-alpine
 
-RUN npm install --global npm@6.7.0
+RUN npm install --global npm@6.9.0
 
 ENV HOME=/home/app
 
